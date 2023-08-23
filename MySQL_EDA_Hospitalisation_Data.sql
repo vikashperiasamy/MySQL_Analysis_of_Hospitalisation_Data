@@ -56,7 +56,7 @@ SELECT `Length of Stay`, `Birth Weight` FROM inpatient_data
 WHERE `Birth Weight` <> 0;
 
 /*Comparing length of stay of babies with birth weight
-For ease of data visibility, data has been further grouped using length of stay column (increments of 20 days)*/
+For ease of data visibility, data has been further grouped using length of stay column (increments of 10 days)*/
 SELECT CONCAT(10 * ROUND(`Length of Stay`/10), '-', 10 * ROUND(`Length of Stay`/10) + 9) AS `Range of Length of Stay`, COUNT(`Birth Weight`) AS `Number of Babies`, AVG(`Birth Weight`) AS `Average Birth Weight (g)`, STDDEV(`Birth Weight`) AS `Std. Deviation of Birth Weight (g)`
 FROM babies_data
 GROUP BY `Range of Length of Stay`
