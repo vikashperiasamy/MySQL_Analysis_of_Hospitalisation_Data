@@ -5,10 +5,10 @@ In this project, exploratory data analysis is performed on hospitalisation disch
 
 The project involves the following steps:
 * **Data Sourcing and Extraction**: A suitably large, free-to-use dataset containing multiple factors is located and downloaded
-* **Data Cleaning**: Data is cleaned using Power Query software before uploading into MySQL for analysis
-* **Exploratory Data Analysis**: MySQL statements are used to explore the dataset and draw valuable insights 
+* **Data Cleaning**: The dataset is cleaned using Power Query software before uploading into MySQL for analysis
+* **Exploratory Data Analysis**: MySQL statements are used to explore and analyse the dataset (including creation of columns), so as to draw valuable insights 
 # Dataset Details
-The dataset used in this project is free-to-use and has been obtained from the New York State Department of Health. The dataset contains details pertaining to hospitalisation discharge data, including patient profile-related details (race, age group etc.), hospital location, medical conditions and discharge charges. Additional details as well as the raw dataset can be found [here](https://health.data.ny.gov/Health/Hospital-Inpatient-Discharges-SPARCS-De-Identified/gnzp-ekau).
+The dataset used in this project is free-to-use and has been obtained from the New York State Department of Health, with individually identifiable details having been omitted. The dataset contains details pertaining to hospitalisation discharge data, including patient profile-related details (race, age group etc.), hospital location, medical conditions and discharge charges. Additional details as well as the raw dataset can be found [here](https://health.data.ny.gov/Health/Hospital-Inpatient-Discharges-SPARCS-De-Identified/gnzp-ekau).
 # Insights
 Through exploratory data analysis, the following insights have been gathered:
 1. **Length of Stay**: There is a *positive correlation between average length of stay and charges incurred*, in line with real-world observations 
