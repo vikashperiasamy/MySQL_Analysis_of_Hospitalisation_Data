@@ -1,5 +1,5 @@
 # Project Description
-In this project, exploratory data analysis is performed on hospitalisation discharge data using MySQL software. There are a few key focuses for this project:
+In this project, exploratory data analysis is performed on hospitalisation and discharge data using MySQL software. There are a few key focuses for this project:
 * To investigate *which sub-groups show a higher propensity to be hospitalised* compared to others
 * To investigate *which factors are strongly correlated with discharge charges*
 
@@ -8,7 +8,7 @@ The project involves the following steps:
 * **Data Cleaning**: The dataset is cleaned using Power Query software before uploading into MySQL for analysis
 * **Exploratory Data Analysis**: [MySQL statements](MySQL_EDA_Hospitalisation_Data.sql) are used to explore and analyse the dataset (including column generation using expressions), so as to draw valuable insights 
 # Dataset Details
-The dataset used in this project is free-to-use and has been obtained from the New York State Department of Health, with individually identifiable details having been omitted. The dataset contains details pertaining to hospitalisation discharge data, including patient profile-related details (race, age group etc.), hospital location, medical conditions and discharge charges. Additional details as well as the raw dataset can be found [here](https://health.data.ny.gov/Health/Hospital-Inpatient-Discharges-SPARCS-De-Identified/gnzp-ekau).
+The dataset used in this project is free-to-use and has been obtained from the New York State Department of Health, with individually identifiable details having been omitted. The dataset contains details pertaining to hospitalisation and discharge data, including patient profile-related details (race, age group etc.), hospital location, medical conditions and discharge charges. Additional details as well as the raw dataset can be found [here](https://health.data.ny.gov/Health/Hospital-Inpatient-Discharges-SPARCS-De-Identified/gnzp-ekau).
 # Insights
 Through exploratory data analysis, the following insights have been gathered:
 1. **Length of Stay**: There is a *positive correlation between average length of stay and charges incurred*, in line with real-world observations. 
